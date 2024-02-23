@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat Interface</title>
+  <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+  <div class="container">
+    <div class="hamburger-menu">
+      <i class="fas fa-bars"></i>
+    </div>
+    <div class="chat-list">
+      <h2>Conversations</h2>
+      <ul>
+        <li class="active" data-user="Amit RO">
+            <input type="checkbox" id="checkbox-Amit-RO" name="conversations">
+            <label for="checkbox-Amit-RO">Amit RO</label>
+          </li>
+          <li data-user="Arun Prasath">
+            <input type="checkbox" id="checkbox-Arun-prasath" name="conversations">
+            <label for="checkbox-Arun-prasath">Amit NG</label>
+          </li>
+      </ul>
+    </div>
+    <div class="chat-window">
+      <h2>Conversation with Amit RO</h2>
+      <ul class="chat-messages">
+      </ul>
+      <form class="chat-input">
+        <input type="text" placeholder="Type your message...">
+        <button type="submit">Send</button>
+      </form>
+    </div>
+    <div class="customer-profile">
+      <h2>Amit RO</h2>
+      <ul>
+        <li>Email: amit.ro@example.com</li>
+        <li>Phone number: 1234567890</li>
+      </ul>
+    </div>
+  </div>
+  <script src="Script.js"></script>
+</body>
+</html>
